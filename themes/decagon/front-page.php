@@ -363,7 +363,7 @@ $ac5 = get_field('achievement5');
       <div class="container">
         <div class="media-heading">
           <h4>News from the HQ</h4>
-          <a href="https://blog.decagonhq.com/">Visit Blog</a>
+          <a href="<?php echo site_url('/blog') ?>">Visit Blog</a>
         </div>
         <div class="media-grid">
         <?php 

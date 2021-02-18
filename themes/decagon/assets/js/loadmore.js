@@ -17,7 +17,7 @@ jQuery(function($){
 			},
 			success : function( data ){
 				if( data ) { 
-                    button.text('Load More');
+                    button.text('See More');
                     $(".post").last().after(data); 
 					jb_decagon_loadmore_params.current_page++;
  
