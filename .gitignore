@@ -7,7 +7,7 @@ wp-content/*
 !wp-content/themes/
 
 
-uploads/*
+!uploads
 # ignore these plugins
 plugins/hello.php
 
